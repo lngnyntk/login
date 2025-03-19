@@ -1,0 +1,82 @@
+:root {
+    --Background: rgb(246, 248, 213);
+    --Primary: rgb(33, 133, 213);
+    --Secondary: rgb(52, 140, 212);
+    --Text: Black;
+    }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Background);
+}
+
+.container {
+    background-color: var(--Secondary);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container h3 {
+    font-size: 2rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+}
+
+.container input {
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    gap: 7.5%;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.register {
+    /* display: flex;
+    gap: 5%; */
+}
+
+button {
+    background-color: var(--Background);
+    color: var(--Text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30%;
+    font-weight: 500;
+}
